@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "deploy": "vercel deploy",
+    "dev": "vercel dev"
   },
   "author": "Joseph Genes",
   "license": "ISC",
